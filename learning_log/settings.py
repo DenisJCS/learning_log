@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     #My app
     'learning_logs',
-    #Default apps
+    'accounts',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
