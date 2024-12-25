@@ -20,4 +20,4 @@ def register(request):
     
     #Show empty page
     context = {'form':form}
-    return render(request, 'user/register.html', context)
+    return render(request, 'registration/register.html', context)
