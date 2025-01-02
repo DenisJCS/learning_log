@@ -13,7 +13,7 @@ def topics(request):
     topics = Topic.objects.order_by('date_added')
     context = {'topics': topics}
     return render(request, 'learning_logs/topics.html', context)
-@login_required
+
 def topic(request, topic_id):
     """Выводит одну тему и все её записи"""
     topic = Topic.objects.get(id=topic_id)
